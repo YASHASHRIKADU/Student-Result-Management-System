@@ -1,0 +1,90 @@
+.navbar {
+    background-color: #939faa52;
+    justify-content: space-between;
+
+}
+h1 {
+    padding:20px;
+   font-size: 40px;
+    color: #070f18;
+    font-weight: bold ;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    padding: 15px;
+    font-size: 20px;
+    background-color: #395886;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.form-control {
+    padding: 30px;
+    font-size: 26px;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 70px;
+    background-color: #5377b1;
+    color: #ffffff;
+}
+.table
+{
+color: #f8f8f8;
+background-color: #2e3e63;
+font-weight:270;
+text-align: center;
+border-collapse: collapse;
+font-size: 25px;
+font-family: 'Segoe UI', sans-serif;
+}
+  
+thead{
+    background-color: #3d649e;
+    color: #131212;
+
+font: weight 65px;;
+
+}
+.delBtn{
+    border-radius: 31px;
+    border: 1px solid rgb(26, 84, 143);
+    background-color: #8ab4d2;
+     font: weight 80px;
+     color: #1b1b1b;
+}
+
+body {
+    background-color: #050b36bc;
+}
+
+.btn-danger:hover {
+    background-color: #000c32;
+    border-color: #070f18;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #000c32;
+    color: white;
+     border-color: #070f18;
+}
+#search {
+    background-color: #132560;
+    color: white;              
+    border: 1px solid rgb(20, 20, 31);   
+}
+
+#search:focus {
+    background-color: #1e2a50;
+    color: white;
+    border-color: #668cff;    
+    box-shadow: none;          
+}
+
+/* .......................................... */
+@media only screen and (max-width: 768px) {
+    .navbar {
+        width: 900px;
+    }
+    .input-group {
+       width: 1000px;
+    }
+}
